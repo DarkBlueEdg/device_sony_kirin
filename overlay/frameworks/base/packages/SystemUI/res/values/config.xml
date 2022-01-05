@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+     <string name="config_cpuTempSensor">/sys/class/thermal/thermal_zone7/temp</string>
+     <string-array name="config_oemFastChargerStatusPaths" translatable="false">
+     /sys/class/power_supply/battery/fastchg_status
+     </string-array>
+     <integer name="config_cpuTempDivider" translatable="false">1</integer>
+     <integer name="config_maxVisibleNotificationIcons">5</integer>
+     <integer name="config_maxVisibleNotificationIconsOnLock">6</integer>
+
+</resources>
