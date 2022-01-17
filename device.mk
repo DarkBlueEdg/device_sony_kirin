@@ -37,7 +37,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
 
-thermanager
-
 # Inherit from nile-common
 $(call inherit-product, device/sony/nile-common/nile.mk)
