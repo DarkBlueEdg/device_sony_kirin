@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal manager
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
+    $(LOCAL_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
 
 # Inherit from nile-common
 $(call inherit-product, device/sony/nile-common/nile.mk)
